@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
@@ -7,36 +8,50 @@
 		<title>Vishwas</title>
 		<!--<script async src = "JavaScript/index.js"></script>-->
 		<link rel = "stylesheet" href="Styles/style.css"/>
+		<link rel = "stylesheet" href="Styles/bootstrap/css/bootstrap.css"/>
+		<link rel = "stylesheet" href="Styles/bootstrap/css/bootstrap.min.css"/>
 	</head>
 	
 	<body>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		<a class="navbar-brand" href="index.html">VA</a>
+	  <ul class="navbar-nav ml-auto">
+		<li class="nav-item active">
+		  <a class="nav-link" href="index.html">Home</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="about.html">About</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="family.html" >Family</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="friends.html" >Friends</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="college.html" >College</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="work.html" >Work</a>
+		</li>
+	  </ul>
+	</nav>   		
 	
-	<header>	
-		<nav class="navbar">
-			<div class="navContainer">
-			<div class="col-3 col-s-3 menu">
-				<a href="index.html">
-				<img class = "logo"  src="images/logo.jpg" height = "70" width= "100"/>
-				  <ul>
-					<li><a href="index.html" >Home</a></li>
-					<li><a href="family.html" >Family</a></li>
-					<li><a href="friends.html" >Friends</a></li>
-					<li><a href="college.html" >College</a></li>
-					<li><a href="work.html" >Work</a></li>							
-				  </ul>
+	<section>
+		<div class="container" >
+			<div class="row fullscreen align-items-center justify-content-between">
+				<div class="col-lg-6 col-md-6 banner-left">
+					<h6>This is me</h6>
+					<h1>Vishwas Anavatti</h1>
+					<p>Small town boy with big town dreams.</p>
+					<a href="#" class="primary-btn text-uppercase">discover now</a>
+				</div>
+				<div class="col-lg-6 col-md-6 banner-right d-flex align-self-end">
+					<img class="img-fluid" src="images/Vishwas/vishwas2.JPG" >
+				</div>
 			</div>
-			</div>
-		</nav>			
-	</header>
-	
-	<section id= "container" style="background: url(images/bg_image.jpg)">
-		<div class= "inside-container">
-			<h5>This is me</h5>
-			<h1>Vishwas Anavatti</h1>
-			<p>Small town boy with Big town dreams.</p>						
-		</div>
-		<img class="indexImage" src="images/Vishwas/vishwas2.JPG" >
-	</section>	
+		</div>					
+	</section>
 	
 	<section id="contact" style="background: url(images/bg_image1.jpg)">
 		<div class="section-inner">
@@ -49,9 +64,11 @@
 		</div>
 	</section>
 	
-	<footer>
-	  © Copyright Vishwas Anavatti 2020
+	<footer class="page-footer font-small blue" style="background: url(images/bg_image.jpg)">
+	  <div class="footer-copyright text-center py-3">
+			© Copyright Vishwas Anavatti 2020
+	  </div>
 	</footer>
-
+	
 	</body>
 </html>
