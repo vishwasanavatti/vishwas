@@ -6,9 +6,14 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<head>
 		<title>Vishwas</title>
-		<!--<script async src = "JavaScript/index.js"></script>-->
+		<!--<script async src = "JavaScript/index.js"></script>
+		<script async src = "Styles/bootstrap/js/bootstrap.min.js"></script>-->
 		<link rel = "stylesheet" href="Styles/style.css"/>
-		<link rel = "stylesheet" href="Styles/bootstrap/css/bootstrap.css"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	    <link rel = "stylesheet" href="Styles/bootstrap/css/bootstrap.css"/>
 		<link rel = "stylesheet" href="Styles/bootstrap/css/bootstrap.min.css"/>
 	</head>
 	
@@ -44,10 +49,39 @@
 					<h6>This is me</h6>
 					<h1>Vishwas Anavatti</h1>
 					<p>Small town boy with big town dreams.</p>
-					<a href="#" class="primary-btn text-uppercase">discover now</a>
+					<a href="about.html" class="primary-btn text-uppercase">discover now</a>
 				</div>
 				<div class="col-lg-6 col-md-6">
-					<img class="img-fluid" src="images/Vishwas/vishwas2.JPG" >
+					<div id="carousalImages" class="carousel slide" data-ride="carousel">
+					  <!-- Indicators -->
+					  <ul class="carousel-indicators">
+						<li data-target="#carousalImages" data-slide-to="0" class="active"></li>
+						<li data-target="#carousalImages" data-slide-to="1"></li>
+						<li data-target="#carousalImages" data-slide-to="2"></li>
+					  </ul>
+
+					  <!-- The slideshow -->
+					  <div class="carousel-inner">
+						<div class="carousel-item active">
+						  <img src="images/Vishwas/vishwas2.JPG" >
+						</div>
+						<div class="carousel-item">
+						  <img src="images/Vishwas/vishwas1.JPG">
+						</div>
+						<div class="carousel-item">
+						  <img src="images/Vishwas/vishwas3.JPG">
+						</div>
+					  </div>
+
+					  <!-- Left and right controls -->
+					  <a class="carousel-control-prev" href="#carousalImages" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					  </a>
+					  <a class="carousel-control-next" href="#carousalImages" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					  </a>
+
+					</div>
 				</div>
 			</div>
 		</div>					
@@ -64,11 +98,9 @@
 		</div>
 	</section>
 	
-	<footer class="page-footer font-small blue" style="background: url(images/bg_image.jpg)">
-	  <div class="footer-copyright text-center py-3">
+	<footer style="background: url(images/bg_image.jpg)">
 			© Copyright Vishwas Anavatti 2020
-	  </div>
-	</footer>
+	</footer>	
 	
 	</body>
 </html>
