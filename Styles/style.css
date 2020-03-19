@@ -6,17 +6,29 @@
 nav {
      //background: -webkit-linear-gradient( #000000, #F0F8FF, #C0C0C0);
 }
+
+.contact{
+	margin-left: 150px;
+}
 #contact {
     //height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    //display: inline-block;
+    //justify-content: center;
+    //align-items: center;
     text-align: center;
+	margin-top: 20px;
+	margin-left: 80px;
+	//background: #3B5998;
+}
+.section2{
+	border-style: solid;
+	border-color: black;
+	border-width: thin;
 }
 .fa {
-  padding: 10px;
-  font-size: 20px;
-  width: 50px;
+  padding: 30px;
+  font-size: 25px;
+  width: 150px;
   text-align: center;
   text-decoration: none;
   //margin: 5px 2px;
@@ -41,8 +53,8 @@ footer {
   flex: 0 0 50px;
   padding: 1em;
   width: 100%;
-  justify-content: center;
-  color: black;
+  color: white;
+  background: black;
   font-weight: bold;
   font-size: 1em;
   text-align: center;
