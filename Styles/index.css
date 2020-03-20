@@ -6,12 +6,18 @@
 nav {
      //background: -webkit-linear-gradient( #000000, #F0F8FF, #C0C0C0);
 }
-
+section{
+	background: #FFFFF0;
+}
 .section2{
-	border-style: solid;
-	border-color: black;
-	border-width: thin;
+	//border-style: solid;
+	//border-color: black;
+	background: #FFFFF0;
+	//border-width: thin;
 	width: 100%;
+}
+.row a{
+	margin-bottom: 10px;
 }
 .fa {
   padding: 25px;

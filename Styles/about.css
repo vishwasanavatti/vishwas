@@ -3,7 +3,9 @@
   font-size: 30px !important;
   margin-left: 80px;
 }
-
+section {
+	background: #E0FFFF;
+}
 [class*="col-md-3"] {
     margin-left: 25px;
 }
@@ -34,5 +36,14 @@ footer {
 	//font-weight: bold;
 	font-size: 1.5em;	
 }
-
-
+.row a{
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
+#docs {
+	background: #AFEEEE	;
+	padding: 50px;
+}
+#docs a{
+	margin-top: 10px;
+}
