@@ -1,25 +1,29 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<head>
-		<title>All about me</title>
-		<!--<script async src = "JavaScript/index.js"></script>-->
-		<link rel = "stylesheet" href="Styles/style.css"/>
-		<link rel = "stylesheet" href="Styles/bootstrap/css/bootstrap.css"/>
+		<title>About Vishwas</title>
+		<!--<script async src = "JavaScript/index.js"></script>
+		<script async src = "Styles/bootstrap/js/bootstrap.min.js"></script>-->
+		<link rel = "stylesheet" href="Styles/about.css"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	    <link rel = "stylesheet" href="Styles/bootstrap/css/bootstrap.css"/>
 		<link rel = "stylesheet" href="Styles/bootstrap/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	
 	<body>
-		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-			<a class="navbar-brand" href="index.html">VA</a>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark navbar-fixed-top">
+		<a class="navbar-brand" href="index.html">VA</a>
 		  <ul class="navbar-nav ml-auto">
-			<li class="nav-item active">
+			<li class="nav-item ">
 			  <a class="nav-link" href="index.html">Home</a>
 			</li>
-			<li class="nav-item">
+			<li class="nav-item active">
 			  <a class="nav-link" href="about.html">About</a>
 			</li>
 			<li class="nav-item">
@@ -35,10 +39,413 @@
 			  <a class="nav-link" href="work.html" >Work</a>
 			</li>
 		  </ul>
-		</nav>   		
+	</nav>   		
+	
+	<section>		
+		<div class="row align-items-center justify-content-between">
+			<div class="col-md-3">
+				<h5>Home</h5>
+				<h1>CHIKKAMAGALURU</h1>
+				<p>Born and brought up here.</p>
+				<a href="http://www.chikmagalurtourism.net/places.php" class="primary-btn text-uppercase">Know More About Chikkamagaluru</a>
+			</div>
+			<div class="col-md-8">
+				<div id="ckmImages" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ul class="carousel-indicators">
+					<li data-target="#ckmImages" data-slide-to="0" class="active"></li>
+					<li data-target="#ckmImages" data-slide-to="1"></li>
+					<li data-target="#ckmImages" data-slide-to="2"></li>
+				  </ul>
+
+				  <!-- The slideshow -->
+				  <div class="carousel-inner">
+					<div class="carousel-item active">
+					  <img src="images/ckm/giri.png" >
+					  <div class="carousel-caption">
+						<h3 class="h3-responsive">Mullayanagiri</h3>
+						<p>Highest Peak in Karnataka</p>
+					  </div>
+					</div>					
+					<div class="carousel-item">
+					  <img src="images/ckm/hirekolale.jpg">
+					  <div class="carousel-caption">
+						<h3 class="h3-responsive">Hirekolale</h3>
+						<p>Man-Made Lake</p>
+					  </div>
+					</div>					
+					<div class="carousel-item">
+					  <img src="images/ckm/sringeri.jpeg">
+					  <div class="carousel-caption">
+						<h3 class="h3-responsive">Sringeri</h3>
+						<p>Vidyashankara Temple</p>
+					  </div>
+					</div>					
+				  </div>
+
+				  <!-- Left and right controls -->
+				  <a class="carousel-control-prev" href="#ckmImages" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				  </a>
+				  <a class="carousel-control-next" href="#ckmImages" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				  </a>
+
+				</div>
+			</div>
+		</div>		
+	</section>
+	
+	<section>		
+		<div class="row align-items-center justify-content-left">
+			<div class="col-md-6">
+				<div id="schoolImages" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ul class="carousel-indicators">
+					<li data-target="#schoolImages" data-slide-to="0" class="active"></li>
+					<li data-target="#schoolImages" data-slide-to="1"></li>
+					<li data-target="#schoolImages" data-slide-to="2"></li>
+					<li data-target="#schoolImages" data-slide-to="3"></li>
+					<li data-target="#schoolImages" data-slide-to="4"></li>
+					<li data-target="#schoolImages" data-slide-to="5"></li>
+				  </ul>
+
+				  <!-- The slideshow -->
+				  <div id="school" class="carousel-inner">
+					<div class="carousel-item active">
+					  <img src="images/school/tms.jpg" >
+					  <div class="carousel-caption">
+						<h3 class="h3-responsive">Town Mahila Samaja</h3>
+					  </div>
+					</div>					
+					<div class="carousel-item">
+					  <img src="images/school/pu.jpg">
+					  <div class="carousel-caption">
+						<h3 class="h3-responsive">Sri Sai Angels PU College</h3>
+					  </div>
+					</div>
+					<div class="carousel-item">
+					  <img src="images/school/tms1.jpg">
+					  <div id="fontColour" class="carousel-caption">
+						<h3 class="h3-responsive">TMS School cricket Team</h3>
+						<p>Champions of Inter Zone Boost Cup</p>
+					  </div>
+					</div>
+					<div class="carousel-item">
+					  <img src="images/school/pu1.jpg">
+					  <div id="fontColour" class="carousel-caption">
+						<h3 class="h3-responsive">Computer Science Batch</h3>
+						<p>Dharma Prasad Sir in blue - Respect!</p>
+					  </div>
+					</div>
+					<div class="carousel-item">
+					  <img src="images/school/pu3.jpg">
+					  <div id="fontColour" class="carousel-caption">
+						<h3 class="h3-responsive">Canteen beside College</h3>
+						<p>puffs were best</p>
+					  </div>
+					</div>
+					<div class="carousel-item">
+					  <img src="images/school/pu2.jpg">
+					  <div  class="carousel-caption ">
+						<h3 class="h3-responsive">Pre College Squad</h3>
+						<p>Lit!</p>
+					  </div>
+					</div>
+				  </div>
+
+				  <!-- Left and right controls -->
+				  <a class="carousel-control-prev" href="#schoolImages" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				  </a>
+				  <a class="carousel-control-next" href="#schoolImages" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				  </a>
+
+				</div>
+			</div>
+			<div class="col-md-5">
+				<h5>School</h5>
+				<h1>Town Mahila Samaja (TMS)</h1>
+				<h1>Sri Sai Angels PU College</h1>
+				<p>Studied from nursery to 10th in TMS and 11th and 12th in Sai Angels PU college.</p>
+				<p>People think life take a turn based on this. Have a look :P</p>
+				<a href="https://drive.google.com/file/d/1LS91iRvG5S2SRikf8baluptHqyXMDi7W/view?usp=sharing" class="btn btn-primary text-uppercase">Turn 1</a>
+				<a href="https://drive.google.com/file/d/1-RLL6tp5O6JnQ1YK9O308sDg6Q5rQ71n/view?usp=sharing" class="btn btn-primary text-uppercase">Turn 2</a>
+			</div>
+		</div>		
+	</section>
+	
+	<section>		
+		<div class="row align-items justify-content-between">
+			<div class="col-md-5">
+				<h5>Engineering</h5>
+				<h1>Adichunchanagiri Institute of Technology (AIT)</h1>
+				<p>Did lot of stuffs in here:</p>
+				<ol type="1">
+				  <li>Bunked classes</li>
+				  <li>Represented college cricket team and won few trophies</li>
+				  <li>Had a typical love story - one sided :P</li>
+				  <li>Studied and earned a BACHELOR DEGREE in MECHANICAL Engineering</li>
+				</ol>
+				<p>You can find proof below.</p>
+				<a href="https://drive.google.com/file/d/10gKa2iXOuswWJx2qlW7pDl8xksDYDZem/view?usp=sharing" class="btn btn-primary text-uppercase">Degree Certifcate</a>
+				<a href="https://drive.google.com/file/d/1OJ1CGcD7z4-LUSQ4ArgQnMvEeo_pGMrA/view?usp=sharing" class="btn btn-primary text-uppercase">Thesis Report</a>
+				<a href="https://drive.google.com/file/d/1TIOQk-dWCQ73MyXTEKb6uD9P1xCdTl4g/view?usp=sharing" class="btn btn-primary text-uppercase">Transcript</a>
+			</div>
+			<div class="col-md-7">
+				<div id="aitImages" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ul class="carousel-indicators">
+					<li data-target="#aitImages" data-slide-to="0" class="active"></li>
+					<li data-target="#aitImages" data-slide-to="1"></li>
+					<li data-target="#aitImages" data-slide-to="2"></li>
+					<li data-target="#aitImages" data-slide-to="3"></li>
+					<li data-target="#aitImages" data-slide-to="4"></li>
+					<li data-target="#aitImages" data-slide-to="5"></li>
+					<li data-target="#aitImages" data-slide-to="6"></li>
+					<li data-target="#aitImages" data-slide-to="7"></li>
+					<li data-target="#aitImages" data-slide-to="8"></li>
+					<li data-target="#aitImages" data-slide-to="9"></li>
+					<li data-target="#aitImages" data-slide-to="10"></li>
+				  </ul>
+
+				  <!-- The slideshow -->
+				  <div class="carousel-inner">
+					<div class="carousel-item active">
+					  <img src="images/BE/ait.png" >
+					  <div class="carousel-caption">
+						<h3 class="h3-responsive">Adichunchanagiri Institute of Technology</h3>
+						<p>Entrance</p>
+					  </div>
+					</div>					
+					<div class="carousel-item">
+					  <img src="images/BE/ait1.jpg">
+					  <div class="carousel-caption">
+						<h3 class="h3-responsive">Adichunchanagiri Institute of Technology</h3>
+						<p>Campus</p>
+					  </div>
+					</div>					
+					<div class="carousel-item">
+					  <img src="images/BE/ait3.jpg">
+					  <div id="fontColour" class="carousel-caption">
+						<h3 class="h3-responsive">First Year</h3>
+						<p>Mixed Branch</p>
+					  </div>
+					</div>
+					<div class="carousel-item">
+					  <img src="images/BE/ait4.jpg">
+					  <div class="carousel-caption">
+						<h3 class="h3-responsive">Roadtrip</h3>
+						<p>Outcome of Bunking Classes</p>
+					  </div>
+					</div>	
+					<div class="carousel-item">
+					  <img src="images/BE/ait5.jpg">
+					  <div class="carousel-caption">
+						<h3 class="h3-responsive">Holi</h3>
+						<p>Colourful</p>
+					  </div>
+					</div>	
+					<div class="carousel-item">
+					  <img src="images/BE/ait7.jpg">
+					  <div class="carousel-caption">
+						<h3 class="h3-responsive">Champions</h3>
+						<p>Inter Collegiate Zone 2014-2015</p>
+					  </div>
+					</div>	
+					<div class="carousel-item">
+					  <img src="images/BE/ait6.jpg">
+					  <div class="carousel-caption">
+						<h3 class="h3-responsive">Trophies</h3>
+						<p>Man of the Match in Finals</p>
+					  </div>
+					</div>	
+					<div class="carousel-item">
+					  <img src="images/BE/ait8.jpg">
+					  <div id="fontColour" class="carousel-caption">
+						<h3 class="h3-responsive">Goa</h3>
+						<p>Planned and Executed</p>
+					  </div>
+					</div>	
+					<div class="carousel-item">
+					  <img src="images/BE/ait9.jpg">
+					  <div id="fontColour" class="carousel-caption">
+						<h3 class="h3-responsive">Champians again</h3>
+						<p>Inter Collegiate Zone 2015-2016</p>
+					  </div>
+					</div>	
+					<div class="carousel-item">
+					  <img src="images/BE/ait10.jpg">
+					  <div class="carousel-caption">
+						<h3 class="h3-responsive">Ethnic Day</h3>
+						<p>Mechanical Branch</p>
+					  </div>
+					</div>
+					<div class="carousel-item">
+					  <img src="images/BE/ait11.jpg">
+					  <div class="carousel-caption">
+						<h3 class="h3-responsive">Graduation Day</h3>
+						<p>Project Partners</p>
+					  </div>
+					</div>						
+				  </div>
+
+				  <!-- Left and right controls -->
+				  <a class="carousel-control-prev" href="#aitImages" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				  </a>
+				  <a class="carousel-control-next" href="#aitImages" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				  </a>
+
+				</div>
+			</div>
+		</div>		
+	</section>
+	
+	<section>		
+		<div class="row align-items-center justify-content-left">
+			<div class="col-md-6">
+				<div id="tcsImages" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ul class="carousel-indicators">
+					<li data-target="#tcsImages" data-slide-to="0" class="active"></li>
+					<li data-target="#tcsImages" data-slide-to="1"></li>
+					<li data-target="#tcsImages" data-slide-to="2"></li>
+					<li data-target="#tcsImages" data-slide-to="3"></li>
+					<li data-target="#tcsImages" data-slide-to="4"></li>
+					<li data-target="#tcsImages" data-slide-to="5"></li>
+				  </ul>
+
+				  <!-- The slideshow -->
+				  <div class="carousel-inner">
+					<div class="carousel-item active">
+					  <img src="images/tcs/tcs1.jpg" >
+					  <div class="carousel-caption">
+						<h3 class="h3-responsive">TCS Garima Park Gandhinagar</h3>
+						<p>Journey Started from here</p>
+					  </div>
+					</div>					
+					<div class="carousel-item">
+					  <img src="images/tcs/tcs2.jpg">
+					  <div  class="carousel-caption">
+						<h3 class="h3-responsive">Kannada Gang</h3>
+						<p>office selfie</p>
+					  </div>
+					</div>
+					<div class="carousel-item">
+					  <img src="images/tcs/tcs3.jpg">
+					  <div class="carousel-caption">
+						<h3 class="h3-responsive">A150 Batch</h3>
+						<p>Last Day of Training</p>
+					  </div>
+					</div>	
+					<div class="carousel-item">
+					  <img src="images/tcs/tcs4.jpg">
+					  <div class="carousel-caption">
+						<h3 class="h3-responsive">Team Gurgoan</h3>
+						<p>Ethnic Day</p>
+					  </div>
+					</div>	
+					<div class="carousel-item">
+					  <img src="images/tcs/tcs5.jpg">
+					  <div class="carousel-caption">
+						<h3 class="h3-responsive">Team Bengaluru</h3>
+						<p>Team Lunch</p>
+					  </div>
+					</div>	
+					<div class="carousel-item">
+					  <img src="images/tcs/tcs6.jpg">
+					  <div class="carousel-caption">
+						<h3 class="h3-responsive">Team Bengaluru</h3>
+						<p>Tooooooo Big!</p>
+					  </div>
+					</div>	
+				  </div>
+
+				  <!-- Left and right controls -->
+				  <a class="carousel-control-prev" href="#tcsImages" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				  </a>
+				  <a class="carousel-control-next" href="#tcsImages" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				  </a>
+
+				</div>
+			</div>
+			<div class="col-md-5">
+				<h5>Work</h5>
+				<h1>TATA CONSULTANCY SERVICES (FAU)</h1>
+				<p>Worked here for two and a half years. Had training in Ahmedabad and posted to Gurgoan where I actually started my work in a production support project. After an year, took trasfer to Bengaluru and worked in a development project.</p>
+			</div>
+		</div>		
+	</section>
+	
+	<section>		
+		<div class="row align-items-center justify-content-between">
+			<div class="col-md-3">
+				<h5>Master's in Germany</h5>
+				<h1>FRIEDRICH ALEXANDER UNIVERSITY (FAU)</h1>
+				<p>Studying Computational Engineering.</p>
+			</div>
+			<div class="col-md-8">
+				<div id="fauImages" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ul class="carousel-indicators">
+					<li data-target="#fauImages" data-slide-to="0" class="active"></li>
+					<li data-target="#fauImages" data-slide-to="1"></li>
+				  </ul>
+
+				  <!-- The slideshow -->
+				  <div class="carousel-inner">
+					<div class="carousel-item active">
+					  <img src="images/fau/fau1.jpg" >
+					  <div class="carousel-caption">
+						<h3 class="h3-responsive">FAU</h3>
+						<p>Statue of Friedrich</p>
+					  </div>
+					</div>					
+					<div class="carousel-item">
+					  <img src="images/fau/fau2.jpg">
+					  <div id="fontColour" class="carousel-caption">
+						<h3 class="h3-responsive">FAU</h3>
+						<p>Technical Faculty</p>
+					  </div>
+					</div>								
+				  </div>
+
+				  <!-- Left and right controls -->
+				  <a class="carousel-control-prev" href="#fauImages" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				  </a>
+				  <a class="carousel-control-next" href="#fauImages" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				  </a>
+
+				</div>
+			</div>
+		</div>		
+	</section>
+	
+	<section>
+		<div class="container" >
+			<div class="row align-items-left justify-content-left">
+				<div class="col-md-3">
+					<h1> My Resume and Certificates </h1>
+				</div>
+				<div class="col-md-8">
+				<a href="https://drive.google.com/file/d/1eJ7Mr-sts4dXjIFW1GAuOjbISbzrI6oh/view?usp=sharing" class="btn btn-primary text-uppercase">Cricket Certificates</a>	
+				</div>
+			</div>
+		</div>
+	</section>
 		
-		<footer class="fixed-bottom" style="background: url(images/bg_image.jpg)">
-				© Copyright Vishwas Anavatti 2020
-		</footer>	
+	<footer>
+		<div class="container" >
+			© Copyright Vishwas Anavatti 2020
+		</div>
+	</footer>	
+	
 	</body>
 </html>

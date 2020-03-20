@@ -3,22 +3,22 @@
 <html lang="en">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<head>
 		<title>Vishwas</title>
 		<!--<script async src = "JavaScript/index.js"></script>
 		<script async src = "Styles/bootstrap/js/bootstrap.min.js"></script>-->
-		<link rel = "stylesheet" href="Styles/style.css"/>
+		<link rel = "stylesheet" href="Styles/index.css"/>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 	    <link rel = "stylesheet" href="Styles/bootstrap/css/bootstrap.css"/>
 		<link rel = "stylesheet" href="Styles/bootstrap/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	
 	<body>
-	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark navbar-fixed-top">
 		<a class="navbar-brand" href="index.html">VA</a>
 	  <ul class="navbar-nav ml-auto">
 		<li class="nav-item active">
@@ -45,19 +45,19 @@
 	<section>
 		<div class="container" >
 			<div class="row fullscreen align-items-center justify-content-between">
-				<div class="col-lg-6 col-md-6 banner-left">
+				<div class="col-lg-6 col-md-6 ">
 					<h6>This is me</h6>
 					<h1>Vishwas Anavatti</h1>
 					<p>Small town boy with big town dreams.</p>
 					<a href="about.html" class="primary-btn text-uppercase">discover now</a>
 				</div>
 				<div class="col-lg-6 col-md-6">
-					<div id="carousalImages" class="carousel slide" data-ride="carousel">
+					<div id="indexImages" class="carousel slide" data-ride="carousel">
 					  <!-- Indicators -->
 					  <ul class="carousel-indicators">
-						<li data-target="#carousalImages" data-slide-to="0" class="active"></li>
-						<li data-target="#carousalImages" data-slide-to="1"></li>
-						<li data-target="#carousalImages" data-slide-to="2"></li>
+						<li data-target="#indexImages" data-slide-to="0" class="active"></li>
+						<li data-target="#indexImages" data-slide-to="1"></li>
+						<li data-target="#indexImages" data-slide-to="2"></li>
 					  </ul>
 
 					  <!-- The slideshow -->
@@ -74,10 +74,10 @@
 					  </div>
 
 					  <!-- Left and right controls -->
-					  <a class="carousel-control-prev" href="#carousalImages" data-slide="prev">
+					  <a class="carousel-control-prev" href="#indexImages" data-slide="prev">
 						<span class="carousel-control-prev-icon"></span>
 					  </a>
-					  <a class="carousel-control-next" href="#carousalImages" data-slide="next">
+					  <a class="carousel-control-next" href="#indexImages" data-slide="next">
 						<span class="carousel-control-next-icon"></span>
 					  </a>
 
@@ -88,21 +88,26 @@
 	</section>
 	
 	<section class="section2">
-		<div class="row">
-			<div class="contact">
-				<img src="images/contact.jpg">
-			</div>
-			<div id="contact" >
+		<div class="container" >
+			<div class="row align-items-center justify-content-between">
+				<div class="col-lg-6 col-md-6">
+					<img src="images/contact.jpg">
+				</div>
+				<div  class="col-lg-6 col-md-6">
 					<a href="https://www.facebook.com/vishwas.anavatti" class="fa fa-facebook"></a>
 					<a href="https://www.instagram.com/vishwas_anavatti" class="fa fa-instagram"></a>
-					<a href="https://www.twitter.com/vishckm" class="fa fa-twitter"></a>
-				<p>Or, you can <a href="mailto:vishwasanavatti@gamil.com">send me an email</a></p>
+					<a href="https://twitter.com/vishckm" class="fa fa-twitter"></a>
+					<a href="https://www.linkedin.com/in/vishwas-anavatti-b0b49066/" class="fa fa-linkedin"></a>
+					<p>Or, you can <a href="mailto:vishwasanavatti@gamil.com">send me an email</a></p>
+				</div>
 			</div>
 		</div>
 	</section>
 	
-	<footer ">
+	<footer>
+		<div class="container" >
 			© Copyright Vishwas Anavatti 2020
+		</div>
 	</footer>	
 	
 	</body>
